@@ -1,0 +1,48 @@
+table tbody th{width: 25%; padding: 5px; border-radius: 0px; background-color: #A9A9A9;}
+.pai{margin-left: 9%;}
+.pd{padding-right: 20px; border-radius: 0px 2px 2px 0px; }
+.pr{ border-radius: 2px 0px 0px 2px; }
+div h3{margin-left: 17%;}
+table tr td{padding-left: 5px;}
+.imgs{margin-left: 65%; margin-top: -25%; max-width: 50%; min-width: 50%;}
+/*.imgs{overflow: hidden; max-height: 100%}*/
+.imgs img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.imgs:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.link{margin-left: 70%; margin-top: -10px;}
+
+
+<!-- CSS -->
+/*<style rel="stylesheet" type="text/css">*/
+.tudo { display: table; margin-left: 10% !important; }
+.menu { float: left; width: 30%;}
+.conteudo { margin-left: 35%; width: 30%; margin-left: 60%;}
+strong{font-size: 16pt;}
+
+input[type=radio]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+/*botao*/
+.btn-primary{padding-left: 12px; padding-right: 13px; border-radius: 2px;}
+
+
+.links{text-decoration: none !important; color: black; }
+.links:hover{color: black;}
+
+button{ color: black; background-color: #A9A9A9;  border: none !important; outline: none !important;}
+
+.footer{ position: fixed; text-align: center; font-size: 8pt; width: 66%; border-radius: 3px; /*border: 1px solid #D3D3D3;*/ color: black;}

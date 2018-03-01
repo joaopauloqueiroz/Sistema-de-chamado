@@ -1,0 +1,6 @@
+
+$(function(){
+   $(".popup").colorbox();
+});
+
+
